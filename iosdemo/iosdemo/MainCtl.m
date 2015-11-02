@@ -66,8 +66,16 @@
         if ([content containsString:@","]) {
             content = [content componentsSeparatedByString:@","][0];
         }
-        UIViewController *ctl = [[self storyboard] instantiateViewControllerWithIdentifier:content];
-        [[self navigationController] pushViewController:ctl animated:YES];
+//        包含view 使用nib加载controller
+        if ([content containsString:@"View"]) {
+            UIViewController *ctl = [[UIViewController alloc] initWithNibName:content bundle:nil];
+            [[self navigationController] pushViewController:ctl animated:YES];
+        }
+//        包含ctl 使用storyBoard加载controller
+        else if ([content containsString:@"Ctl"]) {
+            UIViewController *ctl = [[self storyboard] instantiateViewControllerWithIdentifier:content];
+            [[self navigationController] pushViewController:ctl animated:YES];
+        }
     }
 }
 

@@ -7,7 +7,11 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollViewLayoutCtl">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="jHW-NJ-g5o"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScrollViewLayoutView">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -75,7 +79,7 @@
                                     <state key="normal" title="Button6"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yeb-sT-mgq" userLabel="Button7">
-                                    <rect key="frame" x="30" y="885" width="540" height="255"/>
+                                    <rect key="frame" x="30" y="885" width="540" height="455"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.75077786520000001" green="1" blue="0.44121223409999999" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <state key="normal" title="Button7"/>
@@ -108,7 +112,7 @@
                                 <constraint firstItem="wmS-gy-9gi" firstAttribute="top" secondItem="VoR-OT-Peu" secondAttribute="bottom" constant="30" id="inU-2n-f1h"/>
                                 <constraint firstItem="8W0-cG-1Pe" firstAttribute="leading" secondItem="YIa-in-Jvk" secondAttribute="leading" constant="30" id="kmg-ki-fQg"/>
                                 <constraint firstItem="8W0-cG-1Pe" firstAttribute="top" secondItem="wmS-gy-9gi" secondAttribute="bottom" constant="30" id="nw8-Jl-qfj"/>
-                                <constraint firstItem="Yeb-sT-mgq" firstAttribute="height" secondItem="VoR-OT-Peu" secondAttribute="height" id="pru-6h-W7c"/>
+                                <constraint firstItem="Yeb-sT-mgq" firstAttribute="height" secondItem="VoR-OT-Peu" secondAttribute="height" constant="200" id="pru-6h-W7c"/>
                                 <constraint firstAttribute="trailing" secondItem="Yeb-sT-mgq" secondAttribute="trailing" constant="30" id="qan-Q9-oXt"/>
                                 <constraint firstItem="wqO-an-Yyd" firstAttribute="height" secondItem="VoR-OT-Peu" secondAttribute="height" id="r4h-66-GU8"/>
                                 <constraint firstItem="sUf-Pa-JXm" firstAttribute="height" secondItem="VoR-OT-Peu" secondAttribute="height" id="rZQ-66-ksZ"/>
@@ -139,6 +143,10 @@
                 <constraint firstAttribute="trailing" secondItem="ZQC-G4-ONP" secondAttribute="trailing" id="ZcB-X7-k0a"/>
                 <constraint firstItem="ZQC-G4-ONP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lRT-ZY-BqM"/>
             </constraints>
+            <connections>
+                <outlet property="myButton7" destination="Yeb-sT-mgq" id="rhU-0v-pFK"/>
+                <outlet property="myScrollView" destination="ZQC-G4-ONP" id="plN-6s-1Bd"/>
+            </connections>
             <point key="canvasLocation" x="506" y="397"/>
         </view>
     </objects>

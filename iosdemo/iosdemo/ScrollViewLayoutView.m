@@ -18,4 +18,12 @@
 }
 */
 
+- (void) awakeFromNib {
+    
+    NSLog(@"awakeFromNib");
+    NSLog(@"new scroll height is %lf", CGRectGetMaxY(self.myButton7.frame));
+    self.myScrollView.contentSize = CGSizeMake(0, CGRectGetMaxY(self.myButton7.frame));
+    self.myScrollView.contentInset = UIEdgeInsetsMake(0, 0, 200, 0);
+}
+
 @end

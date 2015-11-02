@@ -10,4 +10,7 @@
 
 @interface ScrollViewLayoutView : UIView
 
+@property (weak, nonatomic) IBOutlet UIScrollView *myScrollView;
+@property (weak, nonatomic) IBOutlet UIButton *myButton7;
+
 @end

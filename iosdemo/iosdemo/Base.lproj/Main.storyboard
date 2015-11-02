@@ -106,25 +106,6 @@
             </objects>
             <point key="canvasLocation" x="799" y="1006"/>
         </scene>
-        <!--ScrollViewLayoutCtl-->
-        <scene sceneID="X35-9y-lmh">
-            <objects>
-                <viewController storyboardIdentifier="ScrollViewLayoutCtl" id="YYC-8F-lNR" userLabel="ScrollViewLayoutCtl" customClass="ScrollViewLayoutCtl" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aD6-Vt-IF7"/>
-                        <viewControllerLayoutGuide type="bottom" id="WuU-Ac-e85"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Gfn-E1-eMd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CF6-8s-DWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="799" y="1713"/>
-        </scene>
         <!--媒体-->
         <scene sceneID="DHg-Qt-aA3">
             <objects>
