@@ -20,6 +20,13 @@
 		FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2911BE36AF90000CCC7 /* MyCellView.m */; };
 		FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */; };
 		FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */; };
+		FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D861BE704E9004E375D /* UIColor+Random.m */; };
+		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
+		FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */; };
+		FDBE2D8F1BE7262C004E375D /* ScrollViewLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDBE2D8E1BE7262C004E375D /* ScrollViewLayoutView.xib */; };
+		FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D911BE75B69004E375D /* TabBarCtl.m */; };
+		FDEA2CB01BE788300052B498 /* ScrollViewLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CAF1BE788300052B498 /* ScrollViewLayoutView.m */; };
+		FDEA2CB31BE788FD0052B498 /* ScrollViewLayoutCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CB21BE788FD0052B498 /* ScrollViewLayoutCtl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +71,19 @@
 		FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellView.xib; sourceTree = "<group>"; };
 		FDA0C2951BE374B50000CCC7 /* OpenSourceCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSourceCtl.h; sourceTree = "<group>"; };
 		FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSourceCtl.m; sourceTree = "<group>"; };
+		FDBE2D851BE704E9004E375D /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		FDBE2D861BE704E9004E375D /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		FDBE2D871BE704E9004E375D /* WMResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMResource.h; sourceTree = "<group>"; };
+		FDBE2D881BE704E9004E375D /* WMResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMResource.m; sourceTree = "<group>"; };
+		FDBE2D891BE704E9004E375D /* NSFileManager+WMPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+WMPlus.h"; sourceTree = "<group>"; };
+		FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WMPlus.m"; sourceTree = "<group>"; };
+		FDBE2D8E1BE7262C004E375D /* ScrollViewLayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewLayoutView.xib; sourceTree = "<group>"; };
+		FDBE2D901BE75B69004E375D /* TabBarCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCtl.h; sourceTree = "<group>"; };
+		FDBE2D911BE75B69004E375D /* TabBarCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCtl.m; sourceTree = "<group>"; };
+		FDEA2CAE1BE788300052B498 /* ScrollViewLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayoutView.h; sourceTree = "<group>"; };
+		FDEA2CAF1BE788300052B498 /* ScrollViewLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLayoutView.m; sourceTree = "<group>"; };
+		FDEA2CB11BE788FD0052B498 /* ScrollViewLayoutCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayoutCtl.h; sourceTree = "<group>"; };
+		FDEA2CB21BE788FD0052B498 /* ScrollViewLayoutCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLayoutCtl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +136,14 @@
 			children = (
 				FDA0C2511BE322280000CCC7 /* AppDelegate.h */,
 				FDA0C2521BE322280000CCC7 /* AppDelegate.m */,
+				FDBE2D841BE704C2004E375D /* Resource */,
 				FDA0C2841BE356CA0000CCC7 /* Main */,
-				FDA0C2571BE322280000CCC7 /* Main.storyboard */,
+				FDA0C29B1BE39B860000CCC7 /* Private */,
 				FDA0C25D1BE322280000CCC7 /* Assets.xcassets */,
 				FDA0C25F1BE322280000CCC7 /* LaunchScreen.storyboard */,
 				FDA0C2621BE322280000CCC7 /* Info.plist */,
 				FDA0C25A1BE322280000CCC7 /* iosdemo.xcdatamodeld */,
+				FDA0C2571BE322280000CCC7 /* Main.storyboard */,
 				FDA0C24E1BE322280000CCC7 /* Supporting Files */,
 			);
 			path = iosdemo;
@@ -165,8 +187,43 @@
 				FDA0C2901BE36AF90000CCC7 /* MyCellView.h */,
 				FDA0C2911BE36AF90000CCC7 /* MyCellView.m */,
 				FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */,
+				FDBE2D901BE75B69004E375D /* TabBarCtl.h */,
+				FDBE2D911BE75B69004E375D /* TabBarCtl.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		FDA0C29B1BE39B860000CCC7 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				FDBE2D801BE70368004E375D /* scrollViewLayout */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		FDBE2D801BE70368004E375D /* scrollViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FDEA2CAE1BE788300052B498 /* ScrollViewLayoutView.h */,
+				FDEA2CAF1BE788300052B498 /* ScrollViewLayoutView.m */,
+				FDBE2D8E1BE7262C004E375D /* ScrollViewLayoutView.xib */,
+				FDEA2CB11BE788FD0052B498 /* ScrollViewLayoutCtl.h */,
+				FDEA2CB21BE788FD0052B498 /* ScrollViewLayoutCtl.m */,
+			);
+			name = scrollViewLayout;
+			sourceTree = "<group>";
+		};
+		FDBE2D841BE704C2004E375D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FDBE2D851BE704E9004E375D /* UIColor+Random.h */,
+				FDBE2D861BE704E9004E375D /* UIColor+Random.m */,
+				FDBE2D871BE704E9004E375D /* WMResource.h */,
+				FDBE2D881BE704E9004E375D /* WMResource.m */,
+				FDBE2D891BE704E9004E375D /* NSFileManager+WMPlus.h */,
+				FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBE2D8F1BE7262C004E375D /* ScrollViewLayoutView.xib in Resources */,
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
@@ -303,9 +361,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEA2CB31BE788FD0052B498 /* ScrollViewLayoutCtl.m in Sources */,
 				FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */,
 				FDA0C2871BE356E00000CCC7 /* MainCtl.m in Sources */,
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
+				FDEA2CB01BE788300052B498 /* ScrollViewLayoutView.m in Sources */,
+				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
+				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,
+				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
+				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
 				FDA0C28A1BE363AC0000CCC7 /* PrivateCtl.m in Sources */,
 				FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */,
