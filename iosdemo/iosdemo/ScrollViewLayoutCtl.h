@@ -1,5 +1,5 @@
 //
-//  ScrollVIewLayoutWithXIB.h
+//  ScrollLayoutWithStoryBoardCtl.h
 //  iosdemo
 //
 //  Created by wangmo on 11/3/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScrollViewLayoutWithXIB : UIViewController
+@interface ScrollViewLayoutCtl : UIViewController
 
 @end

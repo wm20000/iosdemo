@@ -66,7 +66,7 @@
             content = [content componentsSeparatedByString:@","][0];
         }
 //        包含view 使用nib加载controller
-        if ([content containsString:@"View"]) {
+        if ([content containsString:@"XIB"]) {
             Class class = NSClassFromString(content);
             UIViewController *ctl = [[class alloc] initWithNibName:content bundle:nil];
             [[self navigationController] pushViewController:ctl animated:YES];

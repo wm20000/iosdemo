@@ -5,12 +5,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollViewLayoutWithXIB">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollViewLayoutXIB">
             <connections>
-                <outlet property="myContainerView" destination="MCr-tf-dio" id="evL-0p-7yQ"/>
-                <outlet property="myScrollView" destination="1UV-uR-f1d" id="UlY-Ku-lYB"/>
-                <outlet property="myView1" destination="XHE-x5-u54" id="5fJ-yJ-4ju"/>
-                <outlet property="myView2" destination="eNq-48-gLh" id="sco-4n-1Dd"/>
+                <outlet property="myContainerView" destination="MCr-tf-dio" id="kle-Zu-rfn"/>
+                <outlet property="myScrollView" destination="1UV-uR-f1d" id="DYZ-Uc-Uj7"/>
+                <outlet property="myView1" destination="XHE-x5-u54" id="xiz-Jc-HQk"/>
+                <outlet property="myView2" destination="eNq-48-gLh" id="N1S-PU-53y"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

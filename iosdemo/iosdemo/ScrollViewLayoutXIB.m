@@ -6,9 +6,9 @@
 //  Copyright © 2015 wmios. All rights reserved.
 //
 
-#import "ScrollViewLayoutWithXIB.h"
+#import "ScrollViewLayoutXIB.h"
 
-@interface ScrollViewLayoutWithXIB ()
+@interface ScrollViewLayoutXIB ()
 
 @property (weak, nonatomic) IBOutlet UIScrollView *myScrollView;
 @property (weak, nonatomic) IBOutlet UIView *myContainerView;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ScrollViewLayoutWithXIB
+@implementation ScrollViewLayoutXIB
 
 - (void)viewDidLoad {
 
@@ -33,7 +33,7 @@
 - (void) resizeScrollView {
     
     CGFloat maxY = CGRectGetMaxY(self.myView2.frame);
-    NSLog(@"%lf", maxY);
+//    NSLog(@"%lf", maxY);
     self.myScrollView.contentSize = CGSizeMake(0, maxY);
     self.myScrollView.contentInset = UIEdgeInsetsMake(64, 0, 9, 0);
 }

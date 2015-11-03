@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="799" y="1006"/>
         </scene>
-        <!--Scroll Layout With Story Board Ctl-->
+        <!--Scroll View Layout Ctl-->
         <scene sceneID="kCe-tv-7tf">
             <objects>
-                <viewController storyboardIdentifier="ScrollLayoutWithStoryBoardCtl" id="zDe-dz-eVn" customClass="ScrollLayoutWithStoryBoardCtl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScrollViewLayoutCtl" id="zDe-dz-eVn" customClass="ScrollViewLayoutCtl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Yj-6A-6ks"/>
                         <viewControllerLayoutGuide type="bottom" id="Vu9-EX-DkY"/>

@@ -6,9 +6,9 @@
 //  Copyright © 2015 wmios. All rights reserved.
 //
 
-#import "ScrollLayoutWithStoryBoardCtl.h"
+#import "ScrollViewLayoutCtl.h"
 
-@interface ScrollLayoutWithStoryBoardCtl ()
+@interface ScrollViewLayoutCtl ()
 
 @property (weak, nonatomic) IBOutlet UIScrollView *myScrollView;
 @property (weak, nonatomic) IBOutlet UIView *containerView;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ScrollLayoutWithStoryBoardCtl
+@implementation ScrollViewLayoutCtl
 
 - (void)viewDidLoad {
     
@@ -38,10 +38,8 @@
 
 - (void) resizeScrollView {
     
-    NSLog(@"resizeScrollView");
-    
     CGFloat maxY = CGRectGetMaxY(self.myView2.frame);
-    NSLog(@"max Y is %lf", maxY);
+//    NSLog(@"max Y is %lf", maxY);
     self.myScrollView.contentSize = CGSizeMake(0, maxY);
     self.myScrollView.contentInset = UIEdgeInsetsMake(0, 0, 9, 0);
 }
