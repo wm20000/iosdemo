@@ -24,8 +24,9 @@
 		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
 		FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */; };
 		FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D911BE75B69004E375D /* TabBarCtl.m */; };
-		FDEA2CB81BE887360052B498 /* ScrollViewLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEA2CB71BE887360052B498 /* ScrollViewLayoutView.xib */; };
 		FDEA2CBE1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CBD1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.m */; };
+		FDEA2CC71BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CC51BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.m */; };
+		FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEA2CC61BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,9 +79,11 @@
 		FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WMPlus.m"; sourceTree = "<group>"; };
 		FDBE2D901BE75B69004E375D /* TabBarCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCtl.h; sourceTree = "<group>"; };
 		FDBE2D911BE75B69004E375D /* TabBarCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCtl.m; sourceTree = "<group>"; };
-		FDEA2CB71BE887360052B498 /* ScrollViewLayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewLayoutView.xib; sourceTree = "<group>"; };
 		FDEA2CBC1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayoutWithStoryBoardCtl.h; sourceTree = "<group>"; };
 		FDEA2CBD1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayoutWithStoryBoardCtl.m; sourceTree = "<group>"; };
+		FDEA2CC41BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayoutWithXIB.h; sourceTree = "<group>"; };
+		FDEA2CC51BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLayoutWithXIB.m; sourceTree = "<group>"; };
+		FDEA2CC61BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewLayoutWithXIB.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,9 +204,11 @@
 		FDBE2D801BE70368004E375D /* scrollViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				FDEA2CB71BE887360052B498 /* ScrollViewLayoutView.xib */,
 				FDEA2CBC1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.h */,
 				FDEA2CBD1BE8B2560052B498 /* ScrollLayoutWithStoryBoardCtl.m */,
+				FDEA2CC41BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.h */,
+				FDEA2CC51BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.m */,
+				FDEA2CC61BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.xib */,
 			);
 			name = scrollViewLayout;
 			sourceTree = "<group>";
@@ -327,8 +332,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDEA2CB81BE887360052B498 /* ScrollViewLayoutView.xib in Resources */,
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
+				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
@@ -364,6 +369,7 @@
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
+				FDEA2CC71BE8BE8B0052B498 /* ScrollViewLayoutWithXIB.m in Sources */,
 				FDA0C28A1BE363AC0000CCC7 /* PrivateCtl.m in Sources */,
 				FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */,
 				FDA0C2501BE322280000CCC7 /* main.m in Sources */,

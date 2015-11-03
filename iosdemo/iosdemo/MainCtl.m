@@ -67,7 +67,8 @@
         }
 //        包含view 使用nib加载controller
         if ([content containsString:@"View"]) {
-            UIViewController *ctl = [[UIViewController alloc] initWithNibName:content bundle:nil];
+            Class class = NSClassFromString(content);
+            UIViewController *ctl = [[class alloc] initWithNibName:content bundle:nil];
             [[self navigationController] pushViewController:ctl animated:YES];
         }
 //        包含ctl 使用storyBoard加载controller

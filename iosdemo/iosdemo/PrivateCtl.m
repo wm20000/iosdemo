@@ -14,7 +14,9 @@
     
     [super viewDidLoad];
     
-    self.tableData = [[NSArray alloc] initWithObjects:@"ScrollLayoutWithStoryBoardCtl,ScrollLayout,StoryBoard布局", @"2", nil];
+    self.tableData = [[NSArray alloc] initWithObjects:
+                      @"ScrollLayoutWithStoryBoardCtl,ScrollViewLayout,StoryBoard布局",
+                      @"ScrollViewLayoutWithXIB,ScrollViewLayout,XIB布局", nil];
 }
 
 @end

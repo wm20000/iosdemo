@@ -27,8 +27,18 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
-//subView布局时调用
 - (void) viewDidLayoutSubviews {
+    
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    
+    [self resizeScrollView];
+}
+
+- (void) resizeScrollView {
+    
+    NSLog(@"resizeScrollView");
     
     CGFloat maxY = CGRectGetMaxY(self.myView2.frame);
     NSLog(@"max Y is %lf", maxY);
