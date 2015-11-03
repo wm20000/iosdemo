@@ -106,6 +106,84 @@
             </objects>
             <point key="canvasLocation" x="799" y="1006"/>
         </scene>
+        <!--Scroll Layout With Story Board Ctl-->
+        <scene sceneID="kCe-tv-7tf">
+            <objects>
+                <viewController storyboardIdentifier="ScrollLayoutWithStoryBoardCtl" id="zDe-dz-eVn" customClass="ScrollLayoutWithStoryBoardCtl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Yj-6A-6ks"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vu9-EX-DkY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HaZ-QQ-Vqf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUb-aW-Rs0">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DkN-aE-ges">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="2000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcK-8P-Z1h" userLabel="View1">
+                                                <rect key="frame" x="9" y="9" width="200" height="500"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.98823529409999999" green="0.49803921569999998" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="4iX-HB-iAh"/>
+                                                    <constraint firstAttribute="height" constant="500" id="fxb-GF-rMY"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BnV-be-Utp" userLabel="View2">
+                                                <rect key="frame" x="391" y="509" width="200" height="500"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="500" id="4h3-cs-ToB"/>
+                                                    <constraint firstAttribute="width" constant="200" id="aU0-cN-ciI"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.75077786520000001" green="1" blue="0.44121223409999999" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="2gu-Je-DhB"/>
+                                            <constraint firstItem="jcK-8P-Z1h" firstAttribute="top" secondItem="DkN-aE-ges" secondAttribute="top" constant="9" id="KPs-EP-v4q"/>
+                                            <constraint firstItem="jcK-8P-Z1h" firstAttribute="leading" secondItem="DkN-aE-ges" secondAttribute="leading" constant="9" id="KmM-Su-7a1"/>
+                                            <constraint firstAttribute="trailing" secondItem="BnV-be-Utp" secondAttribute="trailing" constant="9" id="a0J-rN-wcQ"/>
+                                            <constraint firstItem="BnV-be-Utp" firstAttribute="top" secondItem="jcK-8P-Z1h" secondAttribute="bottom" id="h9e-bz-aSW"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="DkN-aE-ges" firstAttribute="leading" secondItem="RUb-aW-Rs0" secondAttribute="leading" id="0Wv-Kb-s3r"/>
+                                    <constraint firstAttribute="trailing" secondItem="DkN-aE-ges" secondAttribute="trailing" id="3e9-FV-KZm"/>
+                                    <constraint firstAttribute="bottom" secondItem="DkN-aE-ges" secondAttribute="bottom" id="Nb6-Kw-Uwp"/>
+                                    <constraint firstItem="DkN-aE-ges" firstAttribute="centerX" secondItem="RUb-aW-Rs0" secondAttribute="centerX" id="cVH-at-nAN"/>
+                                    <constraint firstItem="DkN-aE-ges" firstAttribute="top" secondItem="RUb-aW-Rs0" secondAttribute="top" id="lrw-ZD-Qxs"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RUb-aW-Rs0" secondAttribute="trailing" id="Ffp-JV-K42"/>
+                            <constraint firstItem="RUb-aW-Rs0" firstAttribute="top" secondItem="6Yj-6A-6ks" secondAttribute="bottom" id="ZYI-Gh-Nj3"/>
+                            <constraint firstItem="RUb-aW-Rs0" firstAttribute="leading" secondItem="HaZ-QQ-Vqf" secondAttribute="leading" id="ywb-cZ-DvT"/>
+                            <constraint firstItem="Vu9-EX-DkY" firstAttribute="top" secondItem="RUb-aW-Rs0" secondAttribute="bottom" id="zkN-Tp-69W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="DkN-aE-ges" id="MCi-Xf-r2z"/>
+                        <outlet property="myScrollView" destination="RUb-aW-Rs0" id="Eti-VQ-cdo"/>
+                        <outlet property="myView1" destination="jcK-8P-Z1h" id="S36-qQ-t8X"/>
+                        <outlet property="myView2" destination="BnV-be-Utp" id="MWg-OO-jC8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5H9-Od-jzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="1701"/>
+        </scene>
         <!--媒体-->
         <scene sceneID="DHg-Qt-aA3">
             <objects>

@@ -7,7 +7,6 @@
 //
 
 #import "MainCtl.h"
-#import "ScrollViewLayoutCtl.h"
 
 #define CELLID "myCell"
 
@@ -48,8 +47,8 @@
     }
     NSString *content = self.tableData[indexPath.row];
     if ([content containsString:@","]) {
-        cell.myTitleView.text = [content componentsSeparatedByString:@","][0];
-        cell.myDetailView.text = [content componentsSeparatedByString:@","][1];
+        cell.myTitleView.text = [content componentsSeparatedByString:@","][1];
+        cell.myDetailView.text = [content componentsSeparatedByString:@","][2];
     } else {
         cell.myTitleView.text = content;
     }
