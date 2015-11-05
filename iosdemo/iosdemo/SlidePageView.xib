@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SlidePageView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EwM-Ua-8wH">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EwM-Ua-8wH" secondAttribute="trailing" id="IQz-5G-0Tk"/>
+                <constraint firstItem="EwM-Ua-8wH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mtg-ZF-kUn"/>
+                <constraint firstItem="EwM-Ua-8wH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WXr-JV-ws5"/>
+                <constraint firstAttribute="bottom" secondItem="EwM-Ua-8wH" secondAttribute="bottom" id="xr5-z6-Shu"/>
+            </constraints>
+            <connections>
+                <outlet property="myScrollView" destination="EwM-Ua-8wH" id="4Op-Bs-ag7"/>
+            </connections>
+        </view>
+    </objects>
+</document>

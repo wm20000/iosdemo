@@ -15,8 +15,11 @@
     [super viewDidLoad];
     
     self.tableData = [[NSArray alloc] initWithObjects:
+                      @"SlidePageViewCtl,SlidePageView,图片轮播器",
+                      @"ScrollViewZoomCtl,ScrollViewZoom,ScrollView缩放功能",
                       @"ScrollViewLayoutCtl,ScrollViewLayout,StoryBoard布局",
-                      @"ScrollViewLayoutXIB,ScrollViewLayout,XIB布局", nil];
+                      @"ScrollViewLayoutXIB,ScrollViewLayout,XIB布局",
+                      nil];
 }
 
 @end

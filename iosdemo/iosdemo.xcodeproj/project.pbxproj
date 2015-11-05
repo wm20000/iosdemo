@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */; };
 		FDA0C2501BE322280000CCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C24F1BE322280000CCC7 /* main.m */; };
 		FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2521BE322280000CCC7 /* AppDelegate.m */; };
 		FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2571BE322280000CCC7 /* Main.storyboard */; };
@@ -20,11 +21,13 @@
 		FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2911BE36AF90000CCC7 /* MyCellView.m */; };
 		FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */; };
 		FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */; };
+		FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */; };
+		FDAB05B31BE9EF6B00C317F9 /* SlidePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */; };
+		FDAB05B61BE9EFD400C317F9 /* slidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05B51BE9EFD400C317F9 /* slidePageView.m */; };
 		FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D861BE704E9004E375D /* UIColor+Random.m */; };
 		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
 		FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */; };
 		FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D911BE75B69004E375D /* TabBarCtl.m */; };
-		FDD484A61BE9003900465642 /* bigimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDD484A51BE9003900465642 /* bigimg.jpg */; };
 		FDEA2CBE1BE8B2560052B498 /* ScrollViewLayoutCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CBD1BE8B2560052B498 /* ScrollViewLayoutCtl.m */; };
 		FDEA2CC71BE8BE8B0052B498 /* ScrollViewLayoutXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEA2CC51BE8BE8B0052B498 /* ScrollViewLayoutXIB.m */; };
 		FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEA2CC61BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib */; };
@@ -48,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageViewCtl.h; sourceTree = "<group>"; };
+		FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageViewCtl.m; sourceTree = "<group>"; };
 		FDA0C24B1BE322280000CCC7 /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA0C24F1BE322280000CCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA0C2511BE322280000CCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +77,11 @@
 		FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellView.xib; sourceTree = "<group>"; };
 		FDA0C2951BE374B50000CCC7 /* OpenSourceCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSourceCtl.h; sourceTree = "<group>"; };
 		FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSourceCtl.m; sourceTree = "<group>"; };
+		FDAB05AE1BE90CCF00C317F9 /* ScrollViewZoomCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewZoomCtl.h; sourceTree = "<group>"; };
+		FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewZoomCtl.m; sourceTree = "<group>"; };
+		FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidePageView.xib; sourceTree = "<group>"; };
+		FDAB05B41BE9EFD400C317F9 /* slidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slidePageView.h; sourceTree = "<group>"; };
+		FDAB05B51BE9EFD400C317F9 /* slidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slidePageView.m; sourceTree = "<group>"; };
 		FDBE2D851BE704E9004E375D /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		FDBE2D861BE704E9004E375D /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		FDBE2D871BE704E9004E375D /* WMResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMResource.h; sourceTree = "<group>"; };
@@ -80,7 +90,6 @@
 		FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+WMPlus.m"; sourceTree = "<group>"; };
 		FDBE2D901BE75B69004E375D /* TabBarCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarCtl.h; sourceTree = "<group>"; };
 		FDBE2D911BE75B69004E375D /* TabBarCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarCtl.m; sourceTree = "<group>"; };
-		FDD484A51BE9003900465642 /* bigimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigimg.jpg; sourceTree = "<group>"; };
 		FDEA2CBC1BE8B2560052B498 /* ScrollViewLayoutCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayoutCtl.h; sourceTree = "<group>"; };
 		FDEA2CBD1BE8B2560052B498 /* ScrollViewLayoutCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLayoutCtl.m; sourceTree = "<group>"; };
 		FDEA2CC41BE8BE8B0052B498 /* ScrollViewLayoutXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLayoutXIB.h; sourceTree = "<group>"; };
@@ -154,7 +163,6 @@
 		FDA0C24E1BE322280000CCC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDD484A51BE9003900465642 /* bigimg.jpg */,
 				FDA0C24F1BE322280000CCC7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -204,14 +212,29 @@
 			name = Private;
 			sourceTree = "<group>";
 		};
+		FDAB05B11BE9E4CB00C317F9 /* slidePageView */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */,
+				FDAB05B41BE9EFD400C317F9 /* slidePageView.h */,
+				FDAB05B51BE9EFD400C317F9 /* slidePageView.m */,
+				FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */,
+				FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */,
+			);
+			name = slidePageView;
+			sourceTree = "<group>";
+		};
 		FDBE2D801BE70368004E375D /* scrollViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				FDAB05B11BE9E4CB00C317F9 /* slidePageView */,
 				FDEA2CBC1BE8B2560052B498 /* ScrollViewLayoutCtl.h */,
 				FDEA2CBD1BE8B2560052B498 /* ScrollViewLayoutCtl.m */,
 				FDEA2CC41BE8BE8B0052B498 /* ScrollViewLayoutXIB.h */,
 				FDEA2CC51BE8BE8B0052B498 /* ScrollViewLayoutXIB.m */,
 				FDEA2CC61BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib */,
+				FDAB05AE1BE90CCF00C317F9 /* ScrollViewZoomCtl.h */,
+				FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */,
 			);
 			name = scrollViewLayout;
 			sourceTree = "<group>";
@@ -338,8 +361,8 @@
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
 				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
+				FDAB05B31BE9EF6B00C317F9 /* SlidePageView.xib in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
-				FDD484A61BE9003900465642 /* bigimg.jpg in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,9 +393,12 @@
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
 				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
 				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,
+				FDAB05B61BE9EFD400C317F9 /* slidePageView.m in Sources */,
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
+				FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */,
+				FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */,
 				FDEA2CC71BE8BE8B0052B498 /* ScrollViewLayoutXIB.m in Sources */,
 				FDA0C28A1BE363AC0000CCC7 /* PrivateCtl.m in Sources */,
 				FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */,
