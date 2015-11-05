@@ -28,7 +28,7 @@
     SlidePageView *sv = [array lastObject];
     
     NSArray *data = [NSArray arrayWithObjects:@"spi1", @"spi2", @"spi3", nil];
-    [sv initSlidePageWith:CGRectMake(0, 0, width, height/3) andSlideData:data];
+//    [sv initSlidePageWith:CGRectMake(0, 0, width, height/3) andSlideData:data];
     [self.view addSubview:sv];
 }
 

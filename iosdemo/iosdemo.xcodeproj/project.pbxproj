@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */; };
+		FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */; };
 		FDA0C2501BE322280000CCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C24F1BE322280000CCC7 /* main.m */; };
 		FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2521BE322280000CCC7 /* AppDelegate.m */; };
 		FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2571BE322280000CCC7 /* Main.storyboard */; };
@@ -51,6 +52,8 @@
 /* Begin PBXFileReference section */
 		FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageViewCtl.h; sourceTree = "<group>"; };
 		FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageViewCtl.m; sourceTree = "<group>"; };
+		FD7D68FF1BEAEE7C0033CD82 /* SlidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageView.h; sourceTree = "<group>"; };
+		FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageView.m; sourceTree = "<group>"; };
 		FDA0C24B1BE322280000CCC7 /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA0C24F1BE322280000CCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA0C2511BE322280000CCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -212,6 +215,8 @@
 			children = (
 				FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */,
 				FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */,
+				FD7D68FF1BEAEE7C0033CD82 /* SlidePageView.h */,
+				FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */,
 			);
 			name = slidePageView;
 			sourceTree = "<group>";
@@ -382,6 +387,7 @@
 				FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */,
 				FDA0C2871BE356E00000CCC7 /* MainCtl.m in Sources */,
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
+				FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */,
 				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
 				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
