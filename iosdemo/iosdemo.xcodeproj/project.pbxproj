@@ -22,8 +22,6 @@
 		FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */; };
 		FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */; };
 		FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */; };
-		FDAB05B31BE9EF6B00C317F9 /* SlidePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */; };
-		FDAB05B61BE9EFD400C317F9 /* slidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05B51BE9EFD400C317F9 /* slidePageView.m */; };
 		FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D861BE704E9004E375D /* UIColor+Random.m */; };
 		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
 		FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D8A1BE704E9004E375D /* NSFileManager+WMPlus.m */; };
@@ -79,9 +77,6 @@
 		FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSourceCtl.m; sourceTree = "<group>"; };
 		FDAB05AE1BE90CCF00C317F9 /* ScrollViewZoomCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewZoomCtl.h; sourceTree = "<group>"; };
 		FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewZoomCtl.m; sourceTree = "<group>"; };
-		FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidePageView.xib; sourceTree = "<group>"; };
-		FDAB05B41BE9EFD400C317F9 /* slidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slidePageView.h; sourceTree = "<group>"; };
-		FDAB05B51BE9EFD400C317F9 /* slidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = slidePageView.m; sourceTree = "<group>"; };
 		FDBE2D851BE704E9004E375D /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		FDBE2D861BE704E9004E375D /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		FDBE2D871BE704E9004E375D /* WMResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMResource.h; sourceTree = "<group>"; };
@@ -215,9 +210,6 @@
 		FDAB05B11BE9E4CB00C317F9 /* slidePageView */ = {
 			isa = PBXGroup;
 			children = (
-				FDAB05B21BE9EF6B00C317F9 /* SlidePageView.xib */,
-				FDAB05B41BE9EFD400C317F9 /* slidePageView.h */,
-				FDAB05B51BE9EFD400C317F9 /* slidePageView.m */,
 				FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */,
 				FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */,
 			);
@@ -361,7 +353,6 @@
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
 				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
-				FDAB05B31BE9EF6B00C317F9 /* SlidePageView.xib in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 			);
@@ -393,7 +384,6 @@
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
 				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
 				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,
-				FDAB05B61BE9EFD400C317F9 /* slidePageView.m in Sources */,
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
