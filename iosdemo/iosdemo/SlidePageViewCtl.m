@@ -20,16 +20,31 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+//    是否会让出64高度（statusbar+tabbar） 默认YES
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+    
+//    [self addPageView];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    
+    [self addPageView];
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    
+//    [self addPageView];
+}
+
+- (void) addPageView {
+
     CGRect rect = self.view.frame;
     float width = rect.size.width;
     float height = rect.size.height;
     
-    NSArray *array = [[NSBundle mainBundle] loadNibNamed:@"SlidePageView" owner:self options:nil];
-    SlidePageView *sv = [array lastObject];
-    
-    NSArray *data = [NSArray arrayWithObjects:@"spi1", @"spi2", @"spi3", nil];
-//    [sv initSlidePageWith:CGRectMake(0, 0, width, height/3) andSlideData:data];
-    [self.view addSubview:sv];
+    NSArray *data = [NSArray arrayWithObjects:@"spi4", @"spi2", @"spi3", nil];
+    SlidePageView *spv = [SlidePageView SlidePageViewWithRect:CGRectMake(0, 64, width, height / 4) andData:data];
+    [self.view addSubview:spv];
 }
 
 @end
