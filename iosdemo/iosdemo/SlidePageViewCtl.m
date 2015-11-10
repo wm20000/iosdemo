@@ -42,7 +42,7 @@
     float width = rect.size.width;
     float height = rect.size.height;
     
-    NSArray *data = [NSArray arrayWithObjects:@"spi4", @"spi2", @"spi3", nil];
+    NSArray *data = [NSArray arrayWithObjects:@"spi1", @"spi2", @"spi3", @"spi4", @"spi5", nil];
     SlidePageView *spv = [SlidePageView SlidePageViewWithRect:CGRectMake(0, 64, width, height / 4) andData:data];
     [self.view addSubview:spv];
 }
