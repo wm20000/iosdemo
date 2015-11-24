@@ -1,25 +1,25 @@
 //
-//  TabBarCtl.m
+//  AFNetworkingCtl.m
 //  iosdemo
 //
-//  Created by wangmo on 11/2/15.
+//  Created by wangmo on 11/24/15.
 //  Copyright © 2015 wmios. All rights reserved.
 //
 
-#import "TabBarCtl.h"
+#import "AFNetworkingCtl.h"
 
-@interface TabBarCtl ()
+@interface AFNetworkingCtl ()
 
 @end
 
-@implementation TabBarCtl
+@implementation AFNetworkingCtl
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.selectedIndex = 2;
+    NSLog(@"AFNetworkingCtl");
 }
 
 @end

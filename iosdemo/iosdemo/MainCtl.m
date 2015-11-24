@@ -65,13 +65,13 @@
         if ([content containsString:@","]) {
             content = [content componentsSeparatedByString:@","][0];
         }
-//        包含view 使用nib加载controller
+//        包含XIB 使用nib加载controller
         if ([content containsString:@"XIB"]) {
             Class class = NSClassFromString(content);
             UIViewController *ctl = [[class alloc] initWithNibName:content bundle:nil];
             [[self navigationController] pushViewController:ctl animated:YES];
         }
-//        包含ctl 使用storyBoard加载controller
+//        包含Ctl 使用storyBoard加载controller
         else if ([content containsString:@"Ctl"]) {
             UIViewController *ctl = [[self storyboard] instantiateViewControllerWithIdentifier:content];
             [[self navigationController] pushViewController:ctl animated:YES];

@@ -1,25 +1,22 @@
 //
-//  TabBarCtl.m
+//  MyQuartz2DCtl.m
 //  iosdemo
 //
-//  Created by wangmo on 11/2/15.
+//  Created by wangmo on 11/13/15.
 //  Copyright © 2015 wmios. All rights reserved.
 //
 
-#import "TabBarCtl.h"
+#import "MyQuartz2DCtl.h"
 
-@interface TabBarCtl ()
+@interface MyQuartz2DCtl ()
 
 @end
 
-@implementation TabBarCtl
+@implementation MyQuartz2DCtl
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.selectedIndex = 2;
 }
 
 @end

@@ -19,8 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.tableData = [NSArray arrayWithObjects:@"3", @"4", nil];
-}
+    self.tableData = [[NSArray alloc] initWithObjects:
+                      @"AFNetworkingCtl,AFNetworking,网络开源组件",
+                      nil];}
 
 
 
