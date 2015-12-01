@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD7AC06B1BFC698D00F40C7C /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC06A1BFC698D00F40C7C /* First.swift */; };
 		FD7AC0831C042D9400F40C7C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */; };
 		FD7AC0841C042D9400F40C7C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0731C042D9400F40C7C /* AFHTTPRequestOperationManager.m */; };
 		FD7AC0851C042D9400F40C7C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0751C042D9400F40C7C /* AFHTTPSessionManager.m */; };
@@ -30,6 +29,8 @@
 		FD7AC0B31C0D9CAD00F40C7C /* MyAnimationXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7AC0B11C0D9CAD00F40C7C /* MyAnimationXIB.xib */; };
 		FD7AC0B91C0DA59000F40C7C /* MyTransitionAnimXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0B71C0DA59000F40C7C /* MyTransitionAnimXIB.m */; };
 		FD7AC0BA1C0DA59000F40C7C /* MyTransitionAnimXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7AC0B81C0DA59000F40C7C /* MyTransitionAnimXIB.xib */; };
+		FD7AC0BF1C0DE03300F40C7C /* MyLayerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0BD1C0DE03300F40C7C /* MyLayerXIB.m */; };
+		FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7AC0BE1C0DE03300F40C7C /* MyLayerXIB.xib */; };
 		FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */; };
 		FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */; };
 		FDA0C2501BE322280000CCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C24F1BE322280000CCC7 /* main.m */; };
@@ -76,9 +77,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD7AC0691BFC698C00F40C7C /* iosdemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosdemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		FD7AC06A1BFC698D00F40C7C /* First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
-		FD7AC06C1BFC6A8500F40C7C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		FD7AC0701C042D9400F40C7C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		FD7AC0721C042D9400F40C7C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -124,6 +122,9 @@
 		FD7AC0B61C0DA59000F40C7C /* MyTransitionAnimXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitionAnimXIB.h; sourceTree = "<group>"; };
 		FD7AC0B71C0DA59000F40C7C /* MyTransitionAnimXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitionAnimXIB.m; sourceTree = "<group>"; };
 		FD7AC0B81C0DA59000F40C7C /* MyTransitionAnimXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTransitionAnimXIB.xib; sourceTree = "<group>"; };
+		FD7AC0BC1C0DE03300F40C7C /* MyLayerXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerXIB.h; sourceTree = "<group>"; };
+		FD7AC0BD1C0DE03300F40C7C /* MyLayerXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayerXIB.m; sourceTree = "<group>"; };
+		FD7AC0BE1C0DE03300F40C7C /* MyLayerXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLayerXIB.xib; sourceTree = "<group>"; };
 		FD7D68FC1BEA32230033CD82 /* SlidePageViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageViewCtl.h; sourceTree = "<group>"; };
 		FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageViewCtl.m; sourceTree = "<group>"; };
 		FD7D68FF1BEAEE7C0033CD82 /* SlidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageView.h; sourceTree = "<group>"; };
@@ -213,16 +214,6 @@
 			name = Pager;
 			sourceTree = "<group>";
 		};
-		FD7AC0681BFC696000F40C7C /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				FD7AC06A1BFC698D00F40C7C /* First.swift */,
-				FD7AC0691BFC698C00F40C7C /* iosdemo-Bridging-Header.h */,
-				FD7AC06C1BFC6A8500F40C7C /* MyPlayground.playground */,
-			);
-			name = Swift;
-			sourceTree = "<group>";
-		};
 		FD7AC06D1C042B8F00F40C7C /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +294,7 @@
 		FD7AC0AB1C0D9C0400F40C7C /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AC0BB1C0DE01600F40C7C /* Layer */,
 				FD7AC0B51C0DA55F00F40C7C /* TransitionAnim */,
 				FD7AC0B41C0DA52000F40C7C /* TransformAnim */,
 			);
@@ -329,6 +321,16 @@
 			name = TransitionAnim;
 			sourceTree = "<group>";
 		};
+		FD7AC0BB1C0DE01600F40C7C /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				FD7AC0BC1C0DE03300F40C7C /* MyLayerXIB.h */,
+				FD7AC0BD1C0DE03300F40C7C /* MyLayerXIB.m */,
+				FD7AC0BE1C0DE03300F40C7C /* MyLayerXIB.xib */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
 		FDA0C2421BE322280000CCC7 = {
 			isa = PBXGroup;
 			children = (
@@ -353,7 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				FD7AC06E1C042D6700F40C7C /* Library */,
-				FD7AC0681BFC696000F40C7C /* Swift */,
 				FDBE2D841BE704C2004E375D /* Resource */,
 				FDA0C2841BE356CA0000CCC7 /* Main */,
 				FDA0C29B1BE39B860000CCC7 /* Private */,
@@ -590,6 +591,7 @@
 				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
+				FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 				FD7AC0BA1C0DA59000F40C7C /* MyTransitionAnimXIB.xib in Resources */,
 			);
@@ -621,6 +623,7 @@
 				FD7AC0881C042D9400F40C7C /* AFURLConnectionOperation.m in Sources */,
 				FD7AC0B91C0DA59000F40C7C /* MyTransitionAnimXIB.m in Sources */,
 				FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */,
+				FD7AC0BF1C0DE03300F40C7C /* MyLayerXIB.m in Sources */,
 				FD7AC0A81C04316600F40C7C /* UIProgressView+AFNetworking.m in Sources */,
 				FDA0C2871BE356E00000CCC7 /* MainCtl.m in Sources */,
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
@@ -638,7 +641,6 @@
 				FD7AC0A51C04316600F40C7C /* UIAlertView+AFNetworking.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
 				FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */,
-				FD7AC06B1BFC698D00F40C7C /* First.swift in Sources */,
 				FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */,
 				FD7AC0851C042D9400F40C7C /* AFHTTPSessionManager.m in Sources */,
 				FDEA2CC71BE8BE8B0052B498 /* ScrollViewLayoutXIB.m in Sources */,
