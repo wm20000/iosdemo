@@ -20,6 +20,8 @@
     // Do any additional setup after loading the view.
     self.tableData = [[NSArray alloc] initWithObjects:
                       @"MyQuartz2DCtl,Quartz2D,绘图示例",
+                      @"MyAnimationXIB,TransformAnimation,形变动画",
+                      @"MyTransitionAnimXIB,TransitionAnimation,转场动画",
                       nil];
 }
 
