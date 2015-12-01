@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD5BD7891C0DE8B2006BF1E8 /* MyWebViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */; };
+		FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */; };
 		FD7AC0831C042D9400F40C7C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */; };
 		FD7AC0841C042D9400F40C7C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0731C042D9400F40C7C /* AFHTTPRequestOperationManager.m */; };
 		FD7AC0851C042D9400F40C7C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0751C042D9400F40C7C /* AFHTTPSessionManager.m */; };
@@ -77,6 +79,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD5BD7861C0DE8B2006BF1E8 /* MyWebViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewXIB.h; sourceTree = "<group>"; };
+		FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewXIB.m; sourceTree = "<group>"; };
+		FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebViewXIB.xib; sourceTree = "<group>"; };
 		FD7AC0701C042D9400F40C7C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		FD7AC0721C042D9400F40C7C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -331,6 +336,16 @@
 			name = Layer;
 			sourceTree = "<group>";
 		};
+		FD7AC0C11C0DE87200F40C7C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				FD5BD7861C0DE8B2006BF1E8 /* MyWebViewXIB.h */,
+				FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */,
+				FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */,
+			);
+			name = WebView;
+			sourceTree = "<group>";
+		};
 		FDA0C2421BE322280000CCC7 = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +478,7 @@
 		FDF9C44B1BF636BC005C38CC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				FD7AC0C11C0DE87200F40C7C /* WebView */,
 				FD7AC0AB1C0D9C0400F40C7C /* Animation */,
 				FDF9C44C1BF6370E005C38CC /* Quartz2D */,
 			);
@@ -592,6 +608,7 @@
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */,
+				FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 				FD7AC0BA1C0DA59000F40C7C /* MyTransitionAnimXIB.xib in Resources */,
 			);
@@ -620,6 +637,7 @@
 			files = (
 				FD7AC0A61C04316600F40C7C /* UIButton+AFNetworking.m in Sources */,
 				FD7AC0891C042D9400F40C7C /* AFURLRequestSerialization.m in Sources */,
+				FD5BD7891C0DE8B2006BF1E8 /* MyWebViewXIB.m in Sources */,
 				FD7AC0881C042D9400F40C7C /* AFURLConnectionOperation.m in Sources */,
 				FD7AC0B91C0DA59000F40C7C /* MyTransitionAnimXIB.m in Sources */,
 				FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */,
