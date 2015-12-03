@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyTimerXIB">
+            <connections>
+                <outlet property="countdownLabel" destination="gQi-ds-Cd6" id="HjJ-5T-fGN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="倒计时：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjI-Vx-3P9">
+                    <rect key="frame" x="16" y="80" width="75" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="bK3-MS-PqG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQi-ds-Cd6">
+                    <rect key="frame" x="107" y="80" width="50" height="21"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="gfw-Ff-tLo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTe-tR-JzI">
+                    <rect key="frame" x="16" y="117" width="30" height="30"/>
+                    <animations/>
+                    <state key="normal" title="开始"/>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="x4k-kd-3nK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1E-g2-IoR">
+                    <rect key="frame" x="62" y="117" width="30" height="30"/>
+                    <animations/>
+                    <state key="normal" title="暂停"/>
+                    <connections>
+                        <action selector="pause:" destination="-1" eventType="touchUpInside" id="qyz-o8-PCE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gQi-ds-Cd6" firstAttribute="top" secondItem="cjI-Vx-3P9" secondAttribute="top" id="BdG-c9-lXJ"/>
+                <constraint firstItem="cjI-Vx-3P9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Hhd-kn-qyf"/>
+                <constraint firstItem="cjI-Vx-3P9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Kh9-8J-XpG"/>
+                <constraint firstItem="sTe-tR-JzI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Ros-VO-ciK"/>
+                <constraint firstItem="sTe-tR-JzI" firstAttribute="top" secondItem="cjI-Vx-3P9" secondAttribute="bottom" constant="16" id="aY8-Fp-X1R"/>
+                <constraint firstItem="o1E-g2-IoR" firstAttribute="leading" secondItem="sTe-tR-JzI" secondAttribute="trailing" constant="16" id="eeC-vh-44k"/>
+                <constraint firstItem="o1E-g2-IoR" firstAttribute="top" secondItem="sTe-tR-JzI" secondAttribute="top" id="jhe-OW-36L"/>
+                <constraint firstItem="gQi-ds-Cd6" firstAttribute="leading" secondItem="cjI-Vx-3P9" secondAttribute="trailing" constant="16" id="jv3-N1-t1u"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

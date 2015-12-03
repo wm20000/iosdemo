@@ -19,6 +19,7 @@
                       @"ScrollViewZoomCtl,ScrollViewZoom,ScrollView缩放功能",
                       @"ScrollViewLayoutCtl,ScrollViewLayout,StoryBoard布局",
                       @"ScrollViewLayoutXIB,ScrollViewLayout,XIB布局",
+                      @"MyWebViewXIB,WebView,简单浏览器",
                       nil];
 }
 

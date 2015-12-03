@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FD5BD7891C0DE8B2006BF1E8 /* MyWebViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */; };
 		FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */; };
+		FD5BD78F1C0FDFFC006BF1E8 /* MyTimerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BD78D1C0FDFFC006BF1E8 /* MyTimerXIB.m */; };
+		FD5BD7901C0FDFFC006BF1E8 /* MyTimerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5BD78E1C0FDFFC006BF1E8 /* MyTimerXIB.xib */; };
 		FD7AC0831C042D9400F40C7C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */; };
 		FD7AC0841C042D9400F40C7C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0731C042D9400F40C7C /* AFHTTPRequestOperationManager.m */; };
 		FD7AC0851C042D9400F40C7C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AC0751C042D9400F40C7C /* AFHTTPSessionManager.m */; };
@@ -82,6 +84,9 @@
 		FD5BD7861C0DE8B2006BF1E8 /* MyWebViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewXIB.h; sourceTree = "<group>"; };
 		FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewXIB.m; sourceTree = "<group>"; };
 		FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebViewXIB.xib; sourceTree = "<group>"; };
+		FD5BD78C1C0FDFFC006BF1E8 /* MyTimerXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTimerXIB.h; sourceTree = "<group>"; };
+		FD5BD78D1C0FDFFC006BF1E8 /* MyTimerXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTimerXIB.m; sourceTree = "<group>"; };
+		FD5BD78E1C0FDFFC006BF1E8 /* MyTimerXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTimerXIB.xib; sourceTree = "<group>"; };
 		FD7AC0701C042D9400F40C7C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		FD7AC0711C042D9400F40C7C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		FD7AC0721C042D9400F40C7C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -206,6 +211,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD5BD78B1C0FDFE0006BF1E8 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FD5BD78C1C0FDFFC006BF1E8 /* MyTimerXIB.h */,
+				FD5BD78D1C0FDFFC006BF1E8 /* MyTimerXIB.m */,
+				FD5BD78E1C0FDFFC006BF1E8 /* MyTimerXIB.xib */,
+			);
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
 		FD7AC0671BFC0C7500F40C7C /* Pager */ = {
 			isa = PBXGroup;
 			children = (
@@ -478,6 +493,7 @@
 		FDF9C44B1BF636BC005C38CC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				FD5BD78B1C0FDFE0006BF1E8 /* NSTimer */,
 				FD7AC0C11C0DE87200F40C7C /* WebView */,
 				FD7AC0AB1C0D9C0400F40C7C /* Animation */,
 				FDF9C44C1BF6370E005C38CC /* Quartz2D */,
@@ -609,6 +625,7 @@
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */,
 				FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */,
+				FD5BD7901C0FDFFC006BF1E8 /* MyTimerXIB.xib in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 				FD7AC0BA1C0DA59000F40C7C /* MyTransitionAnimXIB.xib in Resources */,
 			);
@@ -656,6 +673,7 @@
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FD7AC08F1C042DDD00F40C7C /* AFNetworkingCtl.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
+				FD5BD78F1C0FDFFC006BF1E8 /* MyTimerXIB.m in Sources */,
 				FD7AC0A51C04316600F40C7C /* UIAlertView+AFNetworking.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
 				FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */,

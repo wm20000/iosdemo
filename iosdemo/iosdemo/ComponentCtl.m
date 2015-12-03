@@ -23,7 +23,7 @@
                       @"MyLayerXIB,Layer,层",
                       @"MyAnimationXIB,TransformAnimation,形变动画",
                       @"MyTransitionAnimXIB,TransitionAnimation,转场动画",
-                      @"MyWebViewXIB,WebView,",                      
+                      @"MyTimerXIB,NSTimer,NSTimer应用",
                       nil];
 }
 
