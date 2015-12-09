@@ -49,7 +49,9 @@
     return [[self documentPath] stringByAppendingPathComponent:[subPath stringByAppendingPathComponent:fileName]];
 }
 
-//for document folder
+/**
+ 创建文件夹
+ */
 + (BOOL) createDir:(NSString *)name {
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -57,7 +59,9 @@
     return [fileManager createDirectoryAtPath:dirPath withIntermediateDirectories:YES attributes:nil error:nil];
 }
 
-//for document folder
+/**
+ 移除文件夹
+ */
 + (BOOL) removeDir:(NSString *)name {
     
     NSFileManager *manager = [NSFileManager defaultManager];
@@ -65,7 +69,9 @@
     return [manager removeItemAtPath:dirPath error:nil];
 }
 
-//for document folder
+/**
+ 创建文件
+ */
 + (BOOL) createFile: (NSString *) path : (NSString *) name : (NSData *) data {
     
     NSFileManager *manager = [NSFileManager defaultManager];

@@ -24,6 +24,7 @@
                       @"MyAnimationXIB,TransformAnimation,形变动画",
                       @"MyTransitionAnimXIB,TransitionAnimation,转场动画",
                       @"MyTimerXIB,NSTimer,NSTimer应用",
+                      @"MyFileManagerXIB,FileManager,文件应用",
                       nil];
 }
 

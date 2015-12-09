@@ -50,6 +50,8 @@
 		FDA0C2931BE36AF90000CCC7 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2911BE36AF90000CCC7 /* MyCellView.m */; };
 		FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */; };
 		FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */; };
+		FDA608F51C185DD6005F3543 /* MyFileManagerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA608F31C185DD6005F3543 /* MyFileManagerXIB.m */; };
+		FDA608F61C185DD6005F3543 /* MyFileManagerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA608F41C185DD6005F3543 /* MyFileManagerXIB.xib */; };
 		FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */; };
 		FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D861BE704E9004E375D /* UIColor+Random.m */; };
 		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
@@ -163,6 +165,9 @@
 		FDA0C2921BE36AF90000CCC7 /* MyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellView.xib; sourceTree = "<group>"; };
 		FDA0C2951BE374B50000CCC7 /* OpenSourceCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSourceCtl.h; sourceTree = "<group>"; };
 		FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenSourceCtl.m; sourceTree = "<group>"; };
+		FDA608F21C185DD6005F3543 /* MyFileManagerXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileManagerXIB.h; sourceTree = "<group>"; };
+		FDA608F31C185DD6005F3543 /* MyFileManagerXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileManagerXIB.m; sourceTree = "<group>"; };
+		FDA608F41C185DD6005F3543 /* MyFileManagerXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFileManagerXIB.xib; sourceTree = "<group>"; };
 		FDAB05AE1BE90CCF00C317F9 /* ScrollViewZoomCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewZoomCtl.h; sourceTree = "<group>"; };
 		FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewZoomCtl.m; sourceTree = "<group>"; };
 		FDBE2D851BE704E9004E375D /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
@@ -451,6 +456,16 @@
 			name = Private;
 			sourceTree = "<group>";
 		};
+		FDA608F11C185DB1005F3543 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				FDA608F21C185DD6005F3543 /* MyFileManagerXIB.h */,
+				FDA608F31C185DD6005F3543 /* MyFileManagerXIB.m */,
+				FDA608F41C185DD6005F3543 /* MyFileManagerXIB.xib */,
+			);
+			name = FileManager;
+			sourceTree = "<group>";
+		};
 		FDAB05B11BE9E4CB00C317F9 /* slidePageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,6 +508,7 @@
 		FDF9C44B1BF636BC005C38CC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				FDA608F11C185DB1005F3543 /* FileManager */,
 				FD5BD78B1C0FDFE0006BF1E8 /* NSTimer */,
 				FD7AC0C11C0DE87200F40C7C /* WebView */,
 				FD7AC0AB1C0D9C0400F40C7C /* Animation */,
@@ -619,6 +635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7AC0B31C0D9CAD00F40C7C /* MyAnimationXIB.xib in Resources */,
+				FDA608F61C185DD6005F3543 /* MyFileManagerXIB.xib in Resources */,
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
 				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
@@ -664,6 +681,7 @@
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
 				FD7AC0A91C04316600F40C7C /* UIRefreshControl+AFNetworking.m in Sources */,
 				FD7AC08B1C042D9400F40C7C /* AFURLSessionManager.m in Sources */,
+				FDA608F51C185DD6005F3543 /* MyFileManagerXIB.m in Sources */,
 				FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */,
 				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
 				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,

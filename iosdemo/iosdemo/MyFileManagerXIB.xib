@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyFileManagerXIB">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF1-ms-Ko0">
+                    <rect key="frame" x="16" y="80" width="63" height="30"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.75077786520000001" green="1" blue="0.44121223409999999" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="createDir"/>
+                    <connections>
+                        <action selector="createDir:" destination="-1" eventType="touchUpInside" id="XE2-En-YoE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGP-fQ-LLt">
+                    <rect key="frame" x="95" y="80" width="71" height="30"/>
+                    <animations/>
+                    <state key="normal" title="removeDir"/>
+                    <connections>
+                        <action selector="removeDir:" destination="-1" eventType="touchUpInside" id="EYf-cQ-eEF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIO-6L-Ogt">
+                    <rect key="frame" x="16" y="126" width="56" height="30"/>
+                    <animations/>
+                    <state key="normal" title="existFile"/>
+                    <connections>
+                        <action selector="existFile:" destination="-1" eventType="touchUpInside" id="yvb-lc-Mvo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YA9-mp-tbJ">
+                    <rect key="frame" x="88" y="126" width="67" height="30"/>
+                    <animations/>
+                    <state key="normal" title="createFile"/>
+                    <connections>
+                        <action selector="createFile:" destination="-1" eventType="touchUpInside" id="dyI-lR-Beo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEE-2i-dyl">
+                    <rect key="frame" x="171" y="126" width="75" height="30"/>
+                    <animations/>
+                    <state key="normal" title="removeFile"/>
+                    <connections>
+                        <action selector="removeFile:" destination="-1" eventType="touchUpInside" id="RPp-us-grv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fp-cf-Vjf">
+                    <rect key="frame" x="16" y="172" width="55" height="30"/>
+                    <animations/>
+                    <state key="normal" title="readFile"/>
+                    <connections>
+                        <action selector="readFile:" destination="-1" eventType="touchUpInside" id="ZL5-I5-FR3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMw-mA-uYK">
+                    <rect key="frame" x="87" y="172" width="58" height="30"/>
+                    <animations/>
+                    <state key="normal" title="writeFile"/>
+                    <connections>
+                        <action selector="writeFile:" destination="-1" eventType="touchUpInside" id="s1g-bA-tr3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLs-gc-Mrw">
+                    <rect key="frame" x="16" y="218" width="106" height="30"/>
+                    <animations/>
+                    <state key="normal" title="handleWriteFile"/>
+                    <connections>
+                        <action selector="handleWriteFile:" destination="-1" eventType="touchUpInside" id="9p5-Qi-o9y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6by-mg-7z5">
+                    <rect key="frame" x="138" y="218" width="105" height="30"/>
+                    <animations/>
+                    <state key="normal" title="handleReadFile"/>
+                    <connections>
+                        <action selector="handleReadFile:" destination="-1" eventType="touchUpInside" id="Z9i-Yt-VJ6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8P-a1-UCc">
+                    <rect key="frame" x="259" y="218" width="106" height="30"/>
+                    <animations/>
+                    <state key="normal" title="handleCopyFile"/>
+                    <connections>
+                        <action selector="handleCopyFile:" destination="-1" eventType="touchUpInside" id="FzN-OD-hKI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Av-VD-F03">
+                    <rect key="frame" x="16" y="264" width="124" height="30"/>
+                    <animations/>
+                    <state key="normal" title="handleFileAppend"/>
+                    <connections>
+                        <action selector="handleFileAppend:" destination="-1" eventType="touchUpInside" id="suF-Qf-lTE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZS-8V-UUA">
+                    <rect key="frame" x="156" y="264" width="142" height="30"/>
+                    <animations/>
+                    <state key="normal" title="handleReadFileOffse"/>
+                    <connections>
+                        <action selector="handleReadFileOffse:" destination="-1" eventType="touchUpInside" id="gHw-xz-9LE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ZMw-mA-uYK" firstAttribute="top" secondItem="YA9-mp-tbJ" secondAttribute="bottom" constant="16" id="0zW-sR-ArJ"/>
+                <constraint firstItem="2Av-VD-F03" firstAttribute="top" secondItem="ZLs-gc-Mrw" secondAttribute="bottom" constant="16" id="5K3-SS-KtK"/>
+                <constraint firstItem="uF1-ms-Ko0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="7AG-05-hUu"/>
+                <constraint firstItem="YZS-8V-UUA" firstAttribute="leading" secondItem="2Av-VD-F03" secondAttribute="trailing" constant="16" id="7EF-YQ-wgx"/>
+                <constraint firstItem="YA9-mp-tbJ" firstAttribute="leading" secondItem="XIO-6L-Ogt" secondAttribute="trailing" constant="16" id="80y-zZ-OBx"/>
+                <constraint firstItem="d8P-a1-UCc" firstAttribute="leading" secondItem="6by-mg-7z5" secondAttribute="trailing" constant="16" id="8Vt-sr-Xft"/>
+                <constraint firstItem="YA9-mp-tbJ" firstAttribute="top" secondItem="uGP-fQ-LLt" secondAttribute="bottom" constant="16" id="8er-Iu-wBj"/>
+                <constraint firstItem="d8P-a1-UCc" firstAttribute="top" secondItem="6by-mg-7z5" secondAttribute="top" id="BCy-q7-QQY"/>
+                <constraint firstItem="2Av-VD-F03" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="KrI-xg-2u3"/>
+                <constraint firstItem="ZLs-gc-Mrw" firstAttribute="top" secondItem="5Fp-cf-Vjf" secondAttribute="bottom" constant="16" id="O96-TB-Dgi"/>
+                <constraint firstItem="TEE-2i-dyl" firstAttribute="top" secondItem="YA9-mp-tbJ" secondAttribute="top" id="PNd-t2-3rw"/>
+                <constraint firstItem="uGP-fQ-LLt" firstAttribute="leading" secondItem="uF1-ms-Ko0" secondAttribute="trailing" constant="16" id="Qxh-1R-MQa"/>
+                <constraint firstItem="XIO-6L-Ogt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="TzM-hX-oKu"/>
+                <constraint firstItem="XIO-6L-Ogt" firstAttribute="top" secondItem="uF1-ms-Ko0" secondAttribute="bottom" constant="16" id="VCe-5u-Bjv"/>
+                <constraint firstItem="ZLs-gc-Mrw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="ZDM-Td-cLi"/>
+                <constraint firstItem="5Fp-cf-Vjf" firstAttribute="top" secondItem="XIO-6L-Ogt" secondAttribute="bottom" constant="16" id="bZZ-dv-zcx"/>
+                <constraint firstItem="TEE-2i-dyl" firstAttribute="leading" secondItem="YA9-mp-tbJ" secondAttribute="trailing" constant="16" id="c4X-TS-4Ee"/>
+                <constraint firstItem="uGP-fQ-LLt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="dom-YS-hF2"/>
+                <constraint firstItem="ZMw-mA-uYK" firstAttribute="leading" secondItem="5Fp-cf-Vjf" secondAttribute="trailing" constant="16" id="hfN-Fo-vQF"/>
+                <constraint firstItem="5Fp-cf-Vjf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="ine-OT-gv1"/>
+                <constraint firstItem="uF1-ms-Ko0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="n9L-OD-Z1N"/>
+                <constraint firstItem="YZS-8V-UUA" firstAttribute="top" secondItem="6by-mg-7z5" secondAttribute="bottom" constant="16" id="roT-7b-J6F"/>
+                <constraint firstItem="6by-mg-7z5" firstAttribute="top" secondItem="ZLs-gc-Mrw" secondAttribute="top" id="uId-Pd-mPM"/>
+                <constraint firstItem="6by-mg-7z5" firstAttribute="leading" secondItem="ZLs-gc-Mrw" secondAttribute="trailing" constant="16" id="uV3-lq-Vht"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
