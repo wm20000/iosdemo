@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12007D5C0BEAEEDF074A352E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EDFBE75A0B159152EE9BF1 /* libPods.a */; };
+		FD106E421C1EB9F9005EAC07 /* LeanCloudDemoXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD106E401C1EB9F9005EAC07 /* LeanCloudDemoXIB.m */; };
+		FD106E431C1EB9F9005EAC07 /* LeanCloudDemoXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD106E411C1EB9F9005EAC07 /* LeanCloudDemoXIB.xib */; };
 		FD5BD7891C0DE8B2006BF1E8 /* MyWebViewXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */; };
 		FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */; };
 		FD5BD78F1C0FDFFC006BF1E8 /* MyTimerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BD78D1C0FDFFC006BF1E8 /* MyTimerXIB.m */; };
@@ -52,6 +55,14 @@
 		FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2961BE374B50000CCC7 /* OpenSourceCtl.m */; };
 		FDA608F51C185DD6005F3543 /* MyFileManagerXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA608F31C185DD6005F3543 /* MyFileManagerXIB.m */; };
 		FDA608F61C185DD6005F3543 /* MyFileManagerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA608F41C185DD6005F3543 /* MyFileManagerXIB.xib */; };
+		FDA608FB1C196BA8005F3543 /* MyNavigationXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA608F91C196BA8005F3543 /* MyNavigationXIB.m */; };
+		FDA608FC1C196BA8005F3543 /* MyNavigationXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA608FA1C196BA8005F3543 /* MyNavigationXIB.xib */; };
+		FDA609011C19B20D005F3543 /* MyGCDXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA608FF1C19B20D005F3543 /* MyGCDXIB.m */; };
+		FDA609021C19B20D005F3543 /* MyGCDXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA609001C19B20D005F3543 /* MyGCDXIB.xib */; };
+		FDA609071C19B329005F3543 /* MyNSOperationXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA609051C19B329005F3543 /* MyNSOperationXIB.m */; };
+		FDA609081C19B329005F3543 /* MyNSOperationXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA609061C19B329005F3543 /* MyNSOperationXIB.xib */; };
+		FDA609121C1A7E90005F3543 /* MyNSURLSessionXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA609101C1A7E90005F3543 /* MyNSURLSessionXIB.m */; };
+		FDA609131C1A7E90005F3543 /* MyNSURLSessionXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA609111C1A7E90005F3543 /* MyNSURLSessionXIB.xib */; };
 		FDAB05B01BE90CCF00C317F9 /* ScrollViewZoomCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */; };
 		FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D861BE704E9004E375D /* UIColor+Random.m */; };
 		FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE2D881BE704E9004E375D /* WMResource.m */; };
@@ -83,6 +94,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11C640458792181CFFF1347E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		21EDFBE75A0B159152EE9BF1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F971152A72D3077B44F79570 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD106E3F1C1EB9F9005EAC07 /* LeanCloudDemoXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeanCloudDemoXIB.h; sourceTree = "<group>"; };
+		FD106E401C1EB9F9005EAC07 /* LeanCloudDemoXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeanCloudDemoXIB.m; sourceTree = "<group>"; };
+		FD106E411C1EB9F9005EAC07 /* LeanCloudDemoXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeanCloudDemoXIB.xib; sourceTree = "<group>"; };
 		FD5BD7861C0DE8B2006BF1E8 /* MyWebViewXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewXIB.h; sourceTree = "<group>"; };
 		FD5BD7871C0DE8B2006BF1E8 /* MyWebViewXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewXIB.m; sourceTree = "<group>"; };
 		FD5BD7881C0DE8B2006BF1E8 /* MyWebViewXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebViewXIB.xib; sourceTree = "<group>"; };
@@ -168,6 +185,18 @@
 		FDA608F21C185DD6005F3543 /* MyFileManagerXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileManagerXIB.h; sourceTree = "<group>"; };
 		FDA608F31C185DD6005F3543 /* MyFileManagerXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileManagerXIB.m; sourceTree = "<group>"; };
 		FDA608F41C185DD6005F3543 /* MyFileManagerXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFileManagerXIB.xib; sourceTree = "<group>"; };
+		FDA608F81C196BA8005F3543 /* MyNavigationXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationXIB.h; sourceTree = "<group>"; };
+		FDA608F91C196BA8005F3543 /* MyNavigationXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationXIB.m; sourceTree = "<group>"; };
+		FDA608FA1C196BA8005F3543 /* MyNavigationXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNavigationXIB.xib; sourceTree = "<group>"; };
+		FDA608FE1C19B20D005F3543 /* MyGCDXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGCDXIB.h; sourceTree = "<group>"; };
+		FDA608FF1C19B20D005F3543 /* MyGCDXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGCDXIB.m; sourceTree = "<group>"; };
+		FDA609001C19B20D005F3543 /* MyGCDXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGCDXIB.xib; sourceTree = "<group>"; };
+		FDA609041C19B329005F3543 /* MyNSOperationXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSOperationXIB.h; sourceTree = "<group>"; };
+		FDA609051C19B329005F3543 /* MyNSOperationXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSOperationXIB.m; sourceTree = "<group>"; };
+		FDA609061C19B329005F3543 /* MyNSOperationXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNSOperationXIB.xib; sourceTree = "<group>"; };
+		FDA6090F1C1A7E90005F3543 /* MyNSURLSessionXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSURLSessionXIB.h; sourceTree = "<group>"; };
+		FDA609101C1A7E90005F3543 /* MyNSURLSessionXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSURLSessionXIB.m; sourceTree = "<group>"; };
+		FDA609111C1A7E90005F3543 /* MyNSURLSessionXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNSURLSessionXIB.xib; sourceTree = "<group>"; };
 		FDAB05AE1BE90CCF00C317F9 /* ScrollViewZoomCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewZoomCtl.h; sourceTree = "<group>"; };
 		FDAB05AF1BE90CCF00C317F9 /* ScrollViewZoomCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewZoomCtl.m; sourceTree = "<group>"; };
 		FDBE2D851BE704E9004E375D /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
@@ -196,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12007D5C0BEAEEDF074A352E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +246,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		484C51CB0DB6C0905788C1A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21EDFBE75A0B159152EE9BF1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC4E56C4FF99B679B1E89E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11C640458792181CFFF1347E /* Pods.debug.xcconfig */,
+				F971152A72D3077B44F79570 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD106E3E1C1EB9BE005EAC07 /* LeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				FD106E3F1C1EB9F9005EAC07 /* LeanCloudDemoXIB.h */,
+				FD106E401C1EB9F9005EAC07 /* LeanCloudDemoXIB.m */,
+				FD106E411C1EB9F9005EAC07 /* LeanCloudDemoXIB.xib */,
+			);
+			name = LeanCloud;
+			sourceTree = "<group>";
+		};
 		FD5BD78B1C0FDFE0006BF1E8 /* NSTimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +299,7 @@
 		FD7AC06D1C042B8F00F40C7C /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				FD106E3E1C1EB9BE005EAC07 /* LeanCloud */,
 				FD7AC08C1C042DA900F40C7C /* AFNetworking */,
 			);
 			name = OpenSource;
@@ -373,6 +431,8 @@
 				FDA0C26A1BE322280000CCC7 /* iosdemoTests */,
 				FDA0C2751BE322280000CCC7 /* iosdemoUITests */,
 				FDA0C24C1BE322280000CCC7 /* Products */,
+				FBC4E56C4FF99B679B1E89E1 /* Pods */,
+				484C51CB0DB6C0905788C1A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -466,6 +526,46 @@
 			name = FileManager;
 			sourceTree = "<group>";
 		};
+		FDA608F71C196B8D005F3543 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FDA608F81C196BA8005F3543 /* MyNavigationXIB.h */,
+				FDA608F91C196BA8005F3543 /* MyNavigationXIB.m */,
+				FDA608FA1C196BA8005F3543 /* MyNavigationXIB.xib */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		FDA608FD1C19B1F5005F3543 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				FDA608FE1C19B20D005F3543 /* MyGCDXIB.h */,
+				FDA608FF1C19B20D005F3543 /* MyGCDXIB.m */,
+				FDA609001C19B20D005F3543 /* MyGCDXIB.xib */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		FDA609031C19B30F005F3543 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				FDA609041C19B329005F3543 /* MyNSOperationXIB.h */,
+				FDA609051C19B329005F3543 /* MyNSOperationXIB.m */,
+				FDA609061C19B329005F3543 /* MyNSOperationXIB.xib */,
+			);
+			name = NSOperation;
+			sourceTree = "<group>";
+		};
+		FDA609091C1A7DBF005F3543 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6090F1C1A7E90005F3543 /* MyNSURLSessionXIB.h */,
+				FDA609101C1A7E90005F3543 /* MyNSURLSessionXIB.m */,
+				FDA609111C1A7E90005F3543 /* MyNSURLSessionXIB.xib */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
 		FDAB05B11BE9E4CB00C317F9 /* slidePageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +608,10 @@
 		FDF9C44B1BF636BC005C38CC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				FDA609091C1A7DBF005F3543 /* NSURLSession */,
+				FDA609031C19B30F005F3543 /* NSOperation */,
+				FDA608FD1C19B1F5005F3543 /* GCD */,
+				FDA608F71C196B8D005F3543 /* Navigation */,
 				FDA608F11C185DB1005F3543 /* FileManager */,
 				FD5BD78B1C0FDFE0006BF1E8 /* NSTimer */,
 				FD7AC0C11C0DE87200F40C7C /* WebView */,
@@ -535,9 +639,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDA0C27B1BE322280000CCC7 /* Build configuration list for PBXNativeTarget "iosdemo" */;
 			buildPhases = (
+				5CC5463C22FCF0A42AAF5493 /* Check Pods Manifest.lock */,
 				FDA0C2471BE322280000CCC7 /* Sources */,
 				FDA0C2481BE322280000CCC7 /* Frameworks */,
 				FDA0C2491BE322280000CCC7 /* Resources */,
+				6F6233ABFE33BB94EBE3A903 /* Embed Pods Frameworks */,
+				A73A8ECA3C315514851065EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -638,13 +745,18 @@
 				FDA608F61C185DD6005F3543 /* MyFileManagerXIB.xib in Resources */,
 				FDA0C2941BE36AF90000CCC7 /* MyCellView.xib in Resources */,
 				FDEA2CC81BE8BE8B0052B498 /* ScrollViewLayoutXIB.xib in Resources */,
+				FD106E431C1EB9F9005EAC07 /* LeanCloudDemoXIB.xib in Resources */,
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */,
 				FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */,
+				FDA609081C19B329005F3543 /* MyNSOperationXIB.xib in Resources */,
 				FD5BD7901C0FDFFC006BF1E8 /* MyTimerXIB.xib in Resources */,
+				FDA609021C19B20D005F3543 /* MyGCDXIB.xib in Resources */,
+				FDA608FC1C196BA8005F3543 /* MyNavigationXIB.xib in Resources */,
 				FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */,
 				FD7AC0BA1C0DA59000F40C7C /* MyTransitionAnimXIB.xib in Resources */,
+				FDA609131C1A7E90005F3543 /* MyNSURLSessionXIB.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +776,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CC5463C22FCF0A42AAF5493 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F6233ABFE33BB94EBE3A903 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73A8ECA3C315514851065EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDA0C2471BE322280000CCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -679,18 +839,23 @@
 				FD7AC0A81C04316600F40C7C /* UIProgressView+AFNetworking.m in Sources */,
 				FDA0C2871BE356E00000CCC7 /* MainCtl.m in Sources */,
 				FDA0C2971BE374B50000CCC7 /* OpenSourceCtl.m in Sources */,
+				FDA609071C19B329005F3543 /* MyNSOperationXIB.m in Sources */,
 				FD7AC0A91C04316600F40C7C /* UIRefreshControl+AFNetworking.m in Sources */,
+				FD106E421C1EB9F9005EAC07 /* LeanCloudDemoXIB.m in Sources */,
 				FD7AC08B1C042D9400F40C7C /* AFURLSessionManager.m in Sources */,
 				FDA608F51C185DD6005F3543 /* MyFileManagerXIB.m in Sources */,
+				FDA608FB1C196BA8005F3543 /* MyNavigationXIB.m in Sources */,
 				FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */,
 				FDBE2D8D1BE704E9004E375D /* NSFileManager+WMPlus.m in Sources */,
 				FDBE2D8C1BE704E9004E375D /* WMResource.m in Sources */,
 				FD7AC0871C042D9400F40C7C /* AFSecurityPolicy.m in Sources */,
 				FD7AC0831C042D9400F40C7C /* AFHTTPRequestOperation.m in Sources */,
+				FDA609011C19B20D005F3543 /* MyGCDXIB.m in Sources */,
 				FD7AC0A31C04316600F40C7C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FD7AC08F1C042DDD00F40C7C /* AFNetworkingCtl.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
+				FDA609121C1A7E90005F3543 /* MyNSURLSessionXIB.m in Sources */,
 				FD5BD78F1C0FDFFC006BF1E8 /* MyTimerXIB.m in Sources */,
 				FD7AC0A51C04316600F40C7C /* UIAlertView+AFNetworking.m in Sources */,
 				FDA0C25C1BE322280000CCC7 /* iosdemo.xcdatamodeld in Sources */,
@@ -850,6 +1015,7 @@
 		};
 		FDA0C27C1BE322280000CCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C640458792181CFFF1347E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -864,6 +1030,7 @@
 		};
 		FDA0C27D1BE322280000CCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F971152A72D3077B44F79570 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

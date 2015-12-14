@@ -21,10 +21,14 @@
     self.tableData = [[NSArray alloc] initWithObjects:
                       @"MyQuartz2DCtl,Quartz2D,绘图示例",
                       @"MyLayerXIB,Layer,层",
+                      @"MyNSURLSessionXIB,NSURLSession,网络请求",
+                      @"MyGCDXIB,GCD,多线程",
+                      @"MyNSOperationXIB,NSOperation,多线程",
                       @"MyAnimationXIB,TransformAnimation,形变动画",
                       @"MyTransitionAnimXIB,TransitionAnimation,转场动画",
                       @"MyTimerXIB,NSTimer,NSTimer应用",
                       @"MyFileManagerXIB,FileManager,文件应用",
+                      @"MyNavigationXIB,Navigation,导航栏应用",
                       nil];
 }
 

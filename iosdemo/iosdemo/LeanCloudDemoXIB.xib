@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeanCloudDemoXIB">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqQ-aE-hVI">
+                    <rect key="frame" x="280" y="80" width="40" height="30"/>
+                    <state key="normal" title="Insert"/>
+                    <connections>
+                        <action selector="insertObject:" destination="-1" eventType="touchUpInside" id="y8K-HZ-3qi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuf-eL-q3u">
+                    <rect key="frame" x="279" y="126" width="42" height="30"/>
+                    <state key="normal" title="Query"/>
+                    <connections>
+                        <action selector="queryObject:" destination="-1" eventType="touchUpInside" id="H1S-7Z-Ml8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uqQ-aE-hVI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="4Zi-ap-wFS"/>
+                <constraint firstItem="wuf-eL-q3u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ToY-AV-J1h"/>
+                <constraint firstItem="uqQ-aE-hVI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eDY-B9-ejo"/>
+                <constraint firstItem="wuf-eL-q3u" firstAttribute="top" secondItem="uqQ-aE-hVI" secondAttribute="bottom" constant="16" id="mcC-tc-tAa"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

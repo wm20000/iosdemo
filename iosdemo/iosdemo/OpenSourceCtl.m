@@ -21,6 +21,7 @@
     
     self.tableData = [[NSArray alloc] initWithObjects:
                       @"AFNetworkingCtl,AFNetworking,网络开源组件",
+                      @"LeanCloudDemoXIB,LeanCloud&AVOS,BAAS云",
                       nil];}
 
 
