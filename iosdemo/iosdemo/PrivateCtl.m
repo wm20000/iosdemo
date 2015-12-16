@@ -20,6 +20,7 @@
                       @"ScrollViewLayoutCtl,ScrollViewLayout,StoryBoard布局",
                       @"ScrollViewLayoutXIB,ScrollViewLayout,XIB布局",
                       @"MyWebViewXIB,WebView,简单浏览器",
+                      @"MyImageLoaderXIB,ImgDownloader,图片下载&显示",
                       nil];
 }
 

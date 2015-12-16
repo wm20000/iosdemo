@@ -70,7 +70,7 @@
     [task resume];
 }
 
--(IBAction) parseJsonToObject{
+- (IBAction) parseJsonToObject{
     
     NSURL *url = [NSURL URLWithString:@"http://7xkme5.com1.z0.glb.clouddn.com/students.json"];
     NSURLSession *session = [NSURLSession sharedSession];
