@@ -29,6 +29,13 @@
                         <action selector="queryObject:" destination="-1" eventType="touchUpInside" id="H1S-7Z-Ml8"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uci-qR-s7m">
+                    <rect key="frame" x="278" y="172" width="45" height="30"/>
+                    <state key="normal" title="Delete"/>
+                    <connections>
+                        <action selector="deleteOjbect:" destination="-1" eventType="touchUpInside" id="8p3-OJ-T59"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -36,6 +43,8 @@
                 <constraint firstItem="wuf-eL-q3u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ToY-AV-J1h"/>
                 <constraint firstItem="uqQ-aE-hVI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eDY-B9-ejo"/>
                 <constraint firstItem="wuf-eL-q3u" firstAttribute="top" secondItem="uqQ-aE-hVI" secondAttribute="bottom" constant="16" id="mcC-tc-tAa"/>
+                <constraint firstItem="uci-qR-s7m" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pLp-Rj-3Je"/>
+                <constraint firstItem="uci-qR-s7m" firstAttribute="top" secondItem="wuf-eL-q3u" secondAttribute="bottom" constant="16" id="sZO-0R-0Mt"/>
             </constraints>
         </view>
     </objects>

@@ -22,19 +22,45 @@
 
 - (IBAction)insertObject:(id)sender {
     
-    AVObject *testObject = [AVObject objectWithClassName:@"TestObject"];
+    AVObject *obj = [AVObject objectWithClassName:@"TestObject"];
     NSString *value = [NSString stringWithFormat:@"%f", [[NSDate date] timeIntervalSince1970]];
-    [testObject setObject:value forKey:@"foo"];
-    BOOL save = [testObject save];
-    NSLog(@"LeanCloud TestObject save is %d", save);
+    [obj setObject:value forKey:@"foo"];
+//    [obj saveInBackground]; //主线程
+    [obj saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) { //后台线程 回调后可操作UI
+        if (succeeded) {
+            NSLog(@"save successed");
+        } else {
+            NSLog(@"save failed");
+        }
+    }];
 }
 
 - (IBAction)queryObject:(id)sender {
     
     AVQuery *query = [AVQuery queryWithClassName:@"TestObject"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        for (NSObject *obj in objects) {
-            NSLog(@"%@", obj);
+        if (!error) {
+            for (AVObject *obj in objects) {
+                NSLog(@"id is %@ foo is %@", [obj objectForKey:@"objectId"], obj[@"foo"]); //两种写法
+            }
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+}
+
+- (IBAction)deleteOjbect:(id)sender {
+    
+    AVQuery *query = [AVQuery queryWithClassName:@"TestObject"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            for (AVObject *obj in objects) {
+                [obj deleteInBackground];
+//                [obj removeObjectForKey:@"foo"]; //删除 AVObject 实例的单个属性 需要save生效
+//                [obj saveInBackground];
+            }
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
 }

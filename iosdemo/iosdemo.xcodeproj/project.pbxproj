@@ -23,6 +23,9 @@
 		FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7AC0BE1C0DE03300F40C7C /* MyLayerXIB.xib */; };
 		FD7D68FE1BEA32230033CD82 /* SlidePageViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */; };
 		FD7D69011BEAEE7C0033CD82 /* SlidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */; };
+		FD8476C01C1FBF2700D34EF5 /* MyImageLoaderXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8476BE1C1FBF2700D34EF5 /* MyImageLoaderXIB.m */; };
+		FD8476C11C1FBF2700D34EF5 /* MyImageLoaderXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8476BF1C1FBF2700D34EF5 /* MyImageLoaderXIB.xib */; };
+		FD8476C51C216D3200D34EF5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8476C41C216D3200D34EF5 /* User.m */; };
 		FDA0C2501BE322280000CCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C24F1BE322280000CCC7 /* main.m */; };
 		FDA0C2531BE322280000CCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA0C2521BE322280000CCC7 /* AppDelegate.m */; };
 		FDA0C2591BE322280000CCC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA0C2571BE322280000CCC7 /* Main.storyboard */; };
@@ -104,6 +107,11 @@
 		FD7D68FD1BEA32230033CD82 /* SlidePageViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageViewCtl.m; sourceTree = "<group>"; };
 		FD7D68FF1BEAEE7C0033CD82 /* SlidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidePageView.h; sourceTree = "<group>"; };
 		FD7D69001BEAEE7C0033CD82 /* SlidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidePageView.m; sourceTree = "<group>"; };
+		FD8476BD1C1FBF2700D34EF5 /* MyImageLoaderXIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageLoaderXIB.h; sourceTree = "<group>"; };
+		FD8476BE1C1FBF2700D34EF5 /* MyImageLoaderXIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageLoaderXIB.m; sourceTree = "<group>"; };
+		FD8476BF1C1FBF2700D34EF5 /* MyImageLoaderXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyImageLoaderXIB.xib; sourceTree = "<group>"; };
+		FD8476C31C216D3200D34EF5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FD8476C41C216D3200D34EF5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		FDA0C24B1BE322280000CCC7 /* iosdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA0C24F1BE322280000CCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA0C2511BE322280000CCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -310,6 +318,25 @@
 			name = WebView;
 			sourceTree = "<group>";
 		};
+		FD8476BC1C1FBF0700D34EF5 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FD8476BD1C1FBF2700D34EF5 /* MyImageLoaderXIB.h */,
+				FD8476BE1C1FBF2700D34EF5 /* MyImageLoaderXIB.m */,
+				FD8476BF1C1FBF2700D34EF5 /* MyImageLoaderXIB.xib */,
+			);
+			name = ImageLoader;
+			sourceTree = "<group>";
+		};
+		FD8476C21C216D0100D34EF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD8476C31C216D3200D34EF5 /* User.h */,
+				FD8476C41C216D3200D34EF5 /* User.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FDA0C2421BE322280000CCC7 = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +423,7 @@
 		FDA0C29B1BE39B860000CCC7 /* Private */ = {
 			isa = PBXGroup;
 			children = (
+				FD8476BC1C1FBF0700D34EF5 /* ImageLoader */,
 				FDBE2D801BE70368004E375D /* scrollViewLayout */,
 			);
 			name = Private;
@@ -480,6 +508,7 @@
 		FDBE2D841BE704C2004E375D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				FD8476C21C216D0100D34EF5 /* Model */,
 				FDBE2D851BE704E9004E375D /* UIColor+Random.h */,
 				FDBE2D861BE704E9004E375D /* UIColor+Random.m */,
 				FDBE2D871BE704E9004E375D /* WMResource.h */,
@@ -634,6 +663,7 @@
 				FDA0C2611BE322280000CCC7 /* LaunchScreen.storyboard in Resources */,
 				FDA0C25E1BE322280000CCC7 /* Assets.xcassets in Resources */,
 				FD7AC0C01C0DE03300F40C7C /* MyLayerXIB.xib in Resources */,
+				FD8476C11C1FBF2700D34EF5 /* MyImageLoaderXIB.xib in Resources */,
 				FD5BD78A1C0DE8B2006BF1E8 /* MyWebViewXIB.xib in Resources */,
 				FDA609081C19B329005F3543 /* MyNSOperationXIB.xib in Resources */,
 				FD5BD7901C0FDFFC006BF1E8 /* MyTimerXIB.xib in Resources */,
@@ -730,6 +760,8 @@
 				FDA609011C19B20D005F3543 /* MyGCDXIB.m in Sources */,
 				FDBE2D921BE75B69004E375D /* TabBarCtl.m in Sources */,
 				FD7AC08F1C042DDD00F40C7C /* AFNetworkingCtl.m in Sources */,
+				FD8476C01C1FBF2700D34EF5 /* MyImageLoaderXIB.m in Sources */,
+				FD8476C51C216D3200D34EF5 /* User.m in Sources */,
 				FDBE2D8B1BE704E9004E375D /* UIColor+Random.m in Sources */,
 				FDA609121C1A7E90005F3543 /* MyNSURLSessionXIB.m in Sources */,
 				FD5BD78F1C0FDFFC006BF1E8 /* MyTimerXIB.m in Sources */,

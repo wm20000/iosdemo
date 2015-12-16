@@ -7,6 +7,8 @@
 //
 
 #import "MyNSURLSessionXIB.h"
+#import "User.h"
+#import <YYModel.h>
 
 @interface MyNSURLSessionXIB ()
 
@@ -75,7 +77,11 @@
     NSURLSessionTask *task = [session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         for(int i=0; i<array.count; i++){
-            NSLog(@"%@", array[i]);
+            User *user = [User yy_modelWithJSON:array[i]]; //YYModel json->model
+            NSLog(@"name is %@, age is %@", user.name, user.age);
+            
+            NSDictionary *json = [user yy_modelToJSONObject]; //YYModel model->json
+            NSLog(@"%@", json);
         }
     }];
     [task resume];

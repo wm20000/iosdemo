@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyImageLoaderXIB">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WPy-yu-0fY">
+                    <rect key="frame" x="200" y="100" width="200" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Far-Xc-4Xm"/>
+                        <constraint firstAttribute="height" constant="180" id="tfR-us-p3n"/>
+                    </constraints>
+                </imageView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-SS-dfz">
+                    <rect key="frame" x="200" y="296" width="200" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="9mB-9k-ZpX"/>
+                    </constraints>
+                </progressView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2I-eT-uAp">
+                    <rect key="frame" x="200" y="314" width="34" height="30"/>
+                    <state key="normal" title="Start"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpf-pJ-nSh">
+                    <rect key="frame" x="250" y="314" width="42" height="30"/>
+                    <state key="normal" title="Pause"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fj2-Ru-1r0">
+                    <rect key="frame" x="308" y="314" width="55" height="30"/>
+                    <state key="normal" title="Resume"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bpf-pJ-nSh" firstAttribute="leading" secondItem="K2I-eT-uAp" secondAttribute="trailing" constant="16" id="0Zr-uc-HcE"/>
+                <constraint firstItem="K2I-eT-uAp" firstAttribute="top" secondItem="UdF-SS-dfz" secondAttribute="bottom" constant="16" id="157-hd-p6a"/>
+                <constraint firstItem="Fj2-Ru-1r0" firstAttribute="top" secondItem="Bpf-pJ-nSh" secondAttribute="top" id="7MN-h5-vkM"/>
+                <constraint firstItem="UdF-SS-dfz" firstAttribute="top" secondItem="WPy-yu-0fY" secondAttribute="bottom" constant="16" id="MCU-Ac-ZKi"/>
+                <constraint firstItem="UdF-SS-dfz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="O5j-1d-bEu"/>
+                <constraint firstItem="K2I-eT-uAp" firstAttribute="leading" secondItem="UdF-SS-dfz" secondAttribute="leading" id="qDW-kv-fkq"/>
+                <constraint firstItem="WPy-yu-0fY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sNv-lD-Roc"/>
+                <constraint firstItem="WPy-yu-0fY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="t5A-Y6-P7L"/>
+                <constraint firstItem="Fj2-Ru-1r0" firstAttribute="leading" secondItem="Bpf-pJ-nSh" secondAttribute="trailing" constant="16" id="uea-fS-iZl"/>
+                <constraint firstItem="Bpf-pJ-nSh" firstAttribute="top" secondItem="K2I-eT-uAp" secondAttribute="top" id="vDm-UP-P2a"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
